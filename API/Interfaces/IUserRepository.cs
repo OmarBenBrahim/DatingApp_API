@@ -4,7 +4,7 @@ using API.Helpers;
 
 namespace API.Interfaces
 {
-    public interface IUserRpository
+    public interface IUserRepository
     {
         void Update(AppUser user);
 

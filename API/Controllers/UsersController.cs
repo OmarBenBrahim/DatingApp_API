@@ -15,11 +15,11 @@ namespace API.Controllers
     //[Authorize]
     public class UsersController : BaseApiController
     {
-        private readonly IUserRpository userRpository;
+        private readonly IUserRepository userRpository;
         private readonly IMapper mapper;
         private readonly IPhotoService photoService;
 
-        public UsersController(IUserRpository userRpository, IMapper mapper, IPhotoService photoService)
+        public UsersController(IUserRepository userRpository, IMapper mapper, IPhotoService photoService)
         {
             this.userRpository = userRpository;
             this.mapper = mapper;

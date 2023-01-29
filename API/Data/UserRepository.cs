@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
-    public class UserRepository : IUserRpository
+    public class UserRepository : IUserRepository
     {
         private readonly DataContext context;
         private readonly IMapper mapper;
