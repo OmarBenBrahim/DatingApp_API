@@ -1,9 +1,11 @@
 
 
 using API.Data;
+using API.Entity;
 using API.Extensions;
 using API.Middleware;
 using Arch.EntityFrameworkCore.Internal;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -79,8 +81,10 @@ internal class Program
         try
         {
             var context = services.GetRequiredService<DataContext>();
+            var userManager = services.GetRequiredService<UserManager<AppUser>>();
+            var roleManager = services.GetRequiredService<RoleManager<AppRole>>();
             await context.Database.MigrateAsync();
-            await Seed.SeedUsers(context);
+            await Seed.SeedUsers(userManager, roleManager);
         }
         catch (Exception ex)
         {
