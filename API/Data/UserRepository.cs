@@ -22,16 +22,20 @@ namespace API.Data
         public async Task<IEnumerable<AppUser>> GetAllAsync()
         {
             return await context.Users
-                .Include(p => p.Photos)
+                .Include(p => p.Photos.Where(x => x.IsApproved))
                 .ToListAsync();
         }
 
-        public async Task<MemberDto> GetMemberAsync(string username)
+        public async Task<MemberDto> GetMemberAsync(string currentUser,string username)
         {
-            return await context.Users
-                .Where(x => x.UserName == username)
-                .ProjectTo<MemberDto>( mapper.ConfigurationProvider)
-                .SingleOrDefaultAsync();
+            var query = context.Users
+                .Where(x => x.UserName == username).AsQueryable();
+
+            if (username == currentUser)
+                 query = query.IgnoreQueryFilters();
+
+            return await query
+                .ProjectTo<MemberDto>( mapper.ConfigurationProvider).SingleOrDefaultAsync();
         }
 
         public async Task<PageList<MemberDto>> GetMembersAsync(UserParams userParams)

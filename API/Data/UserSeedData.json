@@ -12,10 +12,11 @@
         "City": "Greenbush",
         "Country": "Martinique",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/54.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/women/54.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -31,10 +32,11 @@
         "City": "Celeryville",
         "Country": "Grenada",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/50.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/women/50.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -50,10 +52,11 @@
         "City": "Rosewood",
         "Country": "Svalbard and Jan Mayen Islands",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/14.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/women/14.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -69,10 +72,11 @@
         "City": "Orviston",
         "Country": "Zimbabwe",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/11.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/women/11.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -88,10 +92,11 @@
         "City": "Germanton",
         "Country": "Antigua and Barbuda",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/84.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/women/84.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -107,10 +112,11 @@
         "City": "Cliff",
         "Country": "British Indian Ocean Territory",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/90.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/men/90.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -126,10 +132,11 @@
         "City": "Welda",
         "Country": "Christmas Island",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/87.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/men/87.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -145,10 +152,11 @@
         "City": "Clarence",
         "Country": "Burkina Faso",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/57.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/men/57.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -164,10 +172,11 @@
         "City": "Herald",
         "Country": "Poland",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/11.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/men/11.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     },
     {
@@ -183,10 +192,11 @@
         "City": "Lupton",
         "Country": "Luxembourg",
         "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/93.jpg",
-                "IsMain": true
-            }
+          {
+            "Url": "https://randomuser.me/api/portraits/men/93.jpg",
+            "IsMain": true,
+            "IsApproved": true
+          }
         ]
     }
 ]
